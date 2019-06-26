@@ -1,0 +1,769 @@
+body {
+  font-family: "Aktiv Grotesk";
+}
+.header-color {
+  background: rgb(33,33,33);
+  background: linear-gradient(90deg, rgba(33,33,33,1) 0%, rgba(33,33,33,1) 47%, rgba(33,33,33,1) 100%);
+  }
+
+.header-color a {
+  color: #000;
+  font-family: "Aktiv Grotesk";
+  font-size: 20px;
+}
+
+.landing-grid {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2) ), url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.landing-discription {
+  color: #fff;
+}
+
+.landing-discription h2 {
+  font-family: "Aktiv Grotesk";
+  margin-top: 250px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.landing-discription button {
+  display: block;
+  margin: 100px auto 0;
+  background: #292929;
+  color: #fff;
+  height: auto;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.landing-team-header h2 {
+  font-family: "Aktiv Grotesk";
+  display: flex;
+  justify-content: center;
+}
+
+.landing-achievements {
+  display: flex;
+  align-items: center !important;
+  height: 170px;
+  background: #303030;
+}
+
+.landing-achievements-body-discription p {
+  font-size: 20px;
+  color: #fff;
+}
+
+/*contact*/
+.contact {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact h2 {
+  font-family: "Aktiv Grotesk";
+  display: flex;
+  justify-content: center;
+}
+
+.contact-list {
+  padding-top: 150px;
+  display: flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #333333;
+}
+
+.contact-list List {
+  padding: 0;
+}
+
+.contact-list i {
+  font-size: 30px;
+  padding-right: 15px;
+}
+
+.contact-fields {
+  margin-top: 190px;
+}
+
+.contact-fields Button {
+  background: #333333;
+  color: #fff;
+}
+
+.contact-fields p {
+  font-family: "Aktiv Grotesk";
+  margin-bottom: 0px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #333333;
+}
+/*contact end*/
+
+/*about*/
+
+.about h2 {
+  text-align: center;
+  font-family: "Aktiv Grotesk";
+}
+
+.about p {
+  font-family: "Aktiv Grotesk";
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+/*about end*/
+
+/*registration*/
+.registration {
+  display: flex;
+  justify-content: center;
+}
+
+.registration-left {
+  width: 50%;
+  background-color: #303030;
+  height: auto;
+}
+
+.registration-right {
+  height: -webkit-fill-available;
+  width: 50%;
+  padding-left: 50px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.registration-right a {
+  color: #333333;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.registration-right-fields p {
+  font-family: "Aktiv Grotesk";
+  margin-bottom: 0px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #333333;
+}
+
+.registration-right-fields {
+    margin-top: 50px;
+}
+
+.registration-right-fields Button {
+  background: #333333;
+  color: #fff;
+}
+
+.registration-right-fields a {
+  color: #333333;
+  margin-left: 20px;
+  font-size: 15px;
+}
+/*registration end*/
+
+/*landing-search*/
+.landing-search {
+  background-color: #333333;
+  color: #fff;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+}
+
+.landing-search h2{
+  font-family: "Aktiv Grotesk";
+  text-align: center;
+  margin-top: 0px;
+}
+
+.landing-search p{
+  font-family: "Aktiv Grotesk";
+  text-align: center;
+  font-size: 20px;
+}
+/*landing-search end*/
+
+.wrapper {
+  width: 1200px;
+  padding: 30px 0;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+
+.landing-payment-full {
+  color: #000;
+  background-color: #f1f1f1;
+}
+.landing-payment-Notfull {
+  color: #fff;
+  background-color: #333333;
+}
+
+.landing-payment h2 {
+  text-align: center;
+  font-family: "Aktiv Grotesk";
+  margin-top: 0px;
+}
+
+.landing-payment p {
+  font-family: "Aktiv Grotesk";
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 2.1px;
+}
+
+/*subjects*/
+.subjects {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.subjects-discription h2 {
+  text-align: center;
+  color: #333333 !important;
+  font-family: "Aktiv Grotesk";
+  font-size: 35px;
+  margin-top: 0px;
+}
+
+.subjects-discription p {
+  text-align: center;
+  color: #333333 !important;
+  font-family: "Aktiv Grotesk";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.card-body {
+  padding: 0 20px 20px;
+}
+.subject-card .card:hover .card-body {
+      background: #333333; }
+.subject-card .card:hover h4 {
+      color: #fff; }
+.subject-card .card:hover p {
+      color: white; }
+.subject-card .card:hover Button {
+      color: #000;
+
+
+     }
+.subject-card .card h4 {
+      color: #555555;
+      font-family: "Aktiv Grotesk";
+      font-size: 20px;
+      font-weight: 500; }
+.subject-card .card h5 {
+      color: #8c8c8c;
+      font-family: "Aktiv Grotesk";
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22px; }
+.subject-card Button {
+      color: #000;
+      background-color: #333333;
+      padding: 5px 10px;
+      font-family: "Aktiv Grotesk";
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 20px;
+      text-decoration: none;
+      background: white;
+      border: none; }
+/*subjects*/
+
+/*teacher-profile */
+.teacherProfile h2 {
+  color: #333333;
+  text-align: center;
+  font-family: "Aktiv Grotesk";
+}
+
+.teacher-profile {
+  display: flex;
+  margin: 0 auto;
+}
+
+.teacher-profile-info {
+  margin-top: 50px;
+  width: 50%;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.teacher-profile-subjects {
+  margin-top: 50px;
+  width: 50%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.teacher-profile-info h4 {
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+  color: #333333;
+  font-family: "Aktiv Grotesk";
+}
+
+.teacher-profile-subjects h4 {
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+  color: #333333;
+  font-family: "Aktiv Grotesk";
+}
+
+.teacher-profile-info .btn-teacherProfile {
+    background: #333333;
+    color: #fff;
+}
+
+.teacher-profile-subjects .btn-teacherProfile {
+    background: #333333;
+    color: #fff;
+    margin-top: -3px;
+    margin-left: 20px;
+}
+
+.teacher-profile-info .row {
+  margin-bottom: 20px;
+}
+
+.teacher-profile-subjects .accordion {
+  margin-top: 20px;
+}
+
+.teacher-profile-subjects a {
+    color: #8c8c8c;
+    font-family: "Aktiv Grotesk";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.teacher-students {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/*teacher-profile  end*/
+
+/*student-profile */
+.student-profile h2 {
+  color: #333333;
+  text-align: center;
+  font-family: "Aktiv Grotesk";
+}
+
+.student-profile {
+  display: flex;
+  margin: 0 auto;
+}
+
+.student-profile-info {
+  margin-top: 50px;
+  width: 50%;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.student-profile-score {
+  margin-top: 50px;
+  width: 50%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.student-profile-info h4 {
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+  color: #333333;
+  font-family: "Aktiv Grotesk";
+}
+
+.student-profile-score h4 {
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+  color: #333333;
+  font-family: "Aktiv Grotesk";
+}
+
+.student-profile-info .btn-studentProfile {
+    background: #333333;
+    color: #fff;
+}
+
+.student-profile-info .row {
+  margin-bottom: 20px;
+}
+
+.student-profile-subjects {
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.student-profile-subjects a {
+    color: #8c8c8c;
+    font-family: "Aktiv Grotesk";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.student-profile-subjects .accordion {
+  margin-top: 20px;
+}
+
+.student-profile-subjects .btn-studentProfile {
+    background: #333333;
+    color: #fff;
+    margin-top: -3px;
+    margin-left: 20px;
+}
+
+.student-profile-test {
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.student-profile-test a {
+    color: #8c8c8c;
+    font-family: "Aktiv Grotesk";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+/*student-profile end*/
+
+/*adminProfile*/
+.adminCRUDusers .black {
+  background: #333333;
+  color: #fff;
+  margin-top: -3px;
+  margin-left: 20px;
+}
+
+.adminCRUDusers .red {
+  background: #770C15;
+  color: #fff;
+  margin-top: -3px;
+  margin-left: 20px;
+}
+
+.adminCRUDusers .blue {
+  background: #3CD5FF;
+  color: #fff;
+  margin-top: -3px;
+  margin-left: 20px;
+}
+
+.adminCRUDusers .formField {
+  width: 230px;
+  height: 35px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.adminCRUDsubjects .black {
+  background: #333333;
+  color: #fff;
+  margin-top: -3px;
+  margin-left: 20px;
+}
+
+.adminCRUDsubjects .red {
+  background: #770C15;
+  color: #fff;
+  margin-top: -3px;
+  margin-left: 20px;
+}
+
+.adminCRUDsubjects .blue {
+  background: #3CD5FF;
+  color: #fff;
+  margin-top: -3px;
+  margin-left: 20px;
+}
+
+.adminCRUDsubjects .formField {
+  width: 300px;
+  height: 35px;
+  margin-right: 20px;
+}
+
+.adminProfile-subjectsCreate {
+  margin-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.adminProfile-usersCreate h2 {
+    text-align: center;
+}
+
+.adminProfile-messages {
+  margin-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.studentProfile h2 {
+    text-align: center;
+}
+
+.adminProfile-messages .btn-adminProfile-messages {
+    background: #333333;
+    color: #fff;
+    margin-top: -3px;
+    margin-left: 20px;
+}
+
+.adminProfile-messages Table {
+  margin-top: 20px;
+}
+
+.adminProfile-usersCreate {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/*adminProfile end*/
+
+/*StudentTestPage*/
+.studentTestPage-wrapper {
+  padding-top: 100px;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.studentTestPage-wrapper-dark {
+  background-color: #26292D;
+}
+
+.studentTestPage-wrapper-score h2 {
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.studentTestPage-wrapper-score h3 {
+  color: #26292D;
+  text-align: center;
+}
+/*StudentTestPage end*/
+.lessonPage {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+}
+
+.lessonPage a {
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 1px;
+  background: #363636;
+  font-size: 15px;
+  text-decoration: none;
+}
+/*StudentLessonPage*/
+
+/*teacherTestCreate*/
+.teacherTestCreate {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.teacherTestCreate .formField {
+  width: 600px;
+  height: 35px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.teacherTestCreate .black{
+  background: #333333;
+  color: #fff;
+  margin-top: -3px;
+  margin-left: 20px;
+}
+
+.teacherTestCreate a {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 1px;
+    background: #363636;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.teacherTests-test {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+/*teacherTestCreate end*/
+
+/*modal phone*/
+.phoneFormField {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.modal-header {
+  background: #303030;
+  color: #fff;
+}
+
+.close {
+  color: #fff;
+}
+
+.modal-footer {
+  background: #303030;
+  color: #fff;
+}
+
+.modal-footer Button{
+  background: #303030;
+  color: #fff;
+}
+/*modal phone end*/
+
+.adminCRUDsubjects td{
+  cursor: pointer;
+}
+
+.textEditor {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #212529;
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+.textEditor-window-container,
+.textEditor-textarea {
+  width: 600px;
+  height: 700px;
+}
+.textEditor-textarea,
+.under-title {
+  margin-top: 25px;
+  background: #333;
+}
+.textEditor-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.index-html {
+  width: 80px;
+  height: 10px;
+  text-align: center;
+  font-size: 12px;
+  border-bottom: 25px solid #333;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  color: white;
+}
+.text-editor {
+  width: 80px;
+  height: 10px;
+  text-align: center;
+  font-size: 12px;
+  border-bottom: 25px solid white;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+}
+.under-title,
+.fake-window {
+  height: calc(100% - 25px);
+  background: white;
+}
+.text-editor div,
+.index-html div {
+  position: relative;
+  top: 6px;
+}
+.fake-window {
+  height: calc(100% - 20px);
+  width: 100%;
+  /* overflow-wrap: break-word; */
+}
+.url-container {
+  width: 100%;
+  height: 20px;
+  border: 2px black solid;
+  background: white;
+}
+textarea {
+  color: white;
+}
+
+.footer {
+  background: #303030;
+  color:#fff;
+  font-family: "Aktiv Grotesk";
+}
+
+.footer span {
+  color: #fff;
+  font-family: "Aktiv Grotesk";
+}
+
+.footer span i{
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footer a {
+  color: #fff;
+  font-family: "Aktiv Grotesk";
+}
